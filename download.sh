@@ -11,8 +11,10 @@ cd /home/pi/google_assistant
 mkvirtualenv ga
 # Install required packages
 
+
 sudo apt-get install portaudio19-dev libffi-dev libssl-dev -y
 pip install --upgrade google-assistant-sdk[samples] 
+python -m pip install --upgrade google-auth-oauthlib[tool]
 pip install RPi.GPIO
 
 chmod +x google_assistant.sh
