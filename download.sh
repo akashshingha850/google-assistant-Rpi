@@ -6,6 +6,9 @@ else
   DATA_DIR="$1"
 fi
 
+#setup virtual env (ie. gv
+mkvirtualenv gv
+
 # Install required packages
 sudo apt-get install portaudio19-dev libffi-dev libssl-dev
 pip install --upgrade google-assistant-sdk[samples]
