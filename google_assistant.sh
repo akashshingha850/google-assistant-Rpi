@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source /home/pi/.virtualenvs/cv/bin/activate
+source /home/pi/.virtualenvs/ga/bin/activate
 
 cd /home/pi/google_assistant
 for (( ; ; ))
